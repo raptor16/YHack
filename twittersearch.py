@@ -16,4 +16,8 @@ if __name__ == '__main__':
 <<<<<<< HEAD
 	
 =======
+<<<<<<< HEAD
 >>>>>>> 3686d3e4d29f991ba7e2ba5ccd34926509805b34
+=======
+>>>>>>> 0bf78c293ff4b6dbf50d053d0980e862f17e710c
+>>>>>>> 01ddd9bfa7fc5f50ecab3ce14fc46d3020a5d8a3
