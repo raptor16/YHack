@@ -13,4 +13,7 @@ def tweetbynameandvacation():
 if __name__ == '__main__':
 	result = tweetbynameandvacation()
 	pprint.pprint(result)
+<<<<<<< HEAD
 	
+=======
+>>>>>>> 3686d3e4d29f991ba7e2ba5ccd34926509805b34
