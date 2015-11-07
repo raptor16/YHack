@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 
-<html>
+<html ng-app="drake">
     <head>
-        <title>Insert Title Here</title>
+        <title>Drake</title>
         <meta charset="utf-8">
+        <base href="/">
         
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
+
         <script src="bower_components/firebase/firebase.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+        <script src="bower_components/angularfire/dist/angularfire.js"></script>
+        <script src="bower_components/angular-route/angular-route.js"></script>
+        
+        <script src="app.js"></script>
     </head>
     
-    <body>
-        <script>
-            var ref = new Firebase("https://flywithdrake.firebaseio.com");
-            ref.authWithOAuthPopup("facebook", function(error, authData) {
-              if (error) {
-                console.log("Login Failed!", error);
-              } else {
-                console.log("Authenticated successfully with payload:", authData);
-              }
-            });
-        </script>
+    <body ng-controller="MainController as main">
+        
+        <div ng-view></div>
+
     </body>
 </html>
