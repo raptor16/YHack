@@ -4,27 +4,23 @@
     <head>
         <title>Drake</title>
         <meta charset="utf-8">
+        <base href="/">
         
-        <link href="bower_components/angular-bootstrap/ui-bootstrap-csp.css" />
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
+
         <script src="bower_components/firebase/firebase.js"></script>
         <script src="bower_components/angular/angular.js"></script>
         <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
         <script src="bower_components/angularfire/dist/angularfire.js"></script>
+        <script src="bower_components/angular-route/angular-route.js"></script>
+        
+        <script src="app.js"></script>
     </head>
     
-    <body>
+    <body ng-controller="MainController as main">
         
-        
-        
-        <script>
-            var ref = new Firebase("https://flywithdrake.firebaseio.com");
-            ref.authWithOAuthPopup("facebook", function(error, authData) {
-              if (error) {
-                console.log("Login Failed!", error);
-              } else {
-                console.log("Authenticated successfully with payload:", authData);
-              }
-            });
-        </script>
+        <div ng-view></div>
+
     </body>
 </html>
