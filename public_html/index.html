@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 
-<html>
+<html ng-app="drake">
     <head>
-        <title>Insert Title Here</title>
+        <title>Drake</title>
         <meta charset="utf-8">
         
+        <link href="bower_components/angular-bootstrap/ui-bootstrap-csp.css" />
         <script src="bower_components/firebase/firebase.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+        <script src="bower_components/angularfire/dist/angularfire.js"></script>
     </head>
     
     <body>
+        
+        
+        
         <script>
             var ref = new Firebase("https://flywithdrake.firebaseio.com");
             ref.authWithOAuthPopup("facebook", function(error, authData) {
