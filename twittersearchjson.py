@@ -5,7 +5,7 @@ results = requests.get(url)
 jsonresults = results.json
 
 #for post in jsonresults['results']:
-#	print post['text'].encode('utf-8')s
+#print post['text'].encode('utf-8')s
 
 
 
