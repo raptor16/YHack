@@ -34,7 +34,6 @@
     background-color: rgba(0,0,0,0.3);
     overflow: hidden;
 }
-
 .rec{
     right:20px; 
     top:50px; 
@@ -101,6 +100,9 @@
     background-color: rgba(0,0,0,0.8);
     height: 600px;
     color: #eee;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
 }
 .std-spacer{
     height: 100px;
@@ -163,15 +165,59 @@
     background-image:url("https://upload.wikimedia.org/wikipedia/commons/8/8c/Amphitheater_in_Altos_de_Chav%C3%B3n,_La_Romana,_Dominican_Republic.jpg");
 }
 .i12{
-    background-image:url("http://www.planetware.com/photos-large/USFL/florida-fort-lauderdale-beach-aerial.jpg");
+    background-image:url("https://s3.amazonaws.com/jauntaroo/img/destinations/Puerto_Plata-Dominican_Republic-4-PC_Dominican_Republic_Ministry_of_Tourism_642.jpg");
 }
 .i13{
-    background-image:url("https://homehero-production.s3.amazonaws.com/article-assets/Los-Angeles-Skyline.jpg");
+    background-image:url("http://www.planetware.com/photos-large/USFL/florida-fort-lauderdale-beach-aerial.jpg");
 }
 .i14{
-    background-image:url("http://thejointblog.com/wp-content/uploads/2015/06/bermuda.jpg");
+    background-image:url("https://homehero-production.s3.amazonaws.com/article-assets/Los-Angeles-Skyline.jpg");
 }
 .i15{
-    background-image:url("http://thejointblog.com/wp-content/uploads/2015/06/bermuda.jpg");
+    background-image:url("http://s3.amazonaws.com/m.saltado.com/sites/included/region/60.jpg");
 }
-
+.i16{
+    background-image:url("http://www.ldschurchtemples.com/santodomingo/gallery/images/santo-domingo-mormon-temple20.jpg");
+}
+.i17{
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/f/f9/Bridgetown,_Barbados..JPG");
+}
+.i18{
+    background-image:url("http://www.telegraph.co.uk/incoming/article50090.ece/ALTERNATES/w620/lucia-soufbay.jpg");
+}
+.i19{
+    background-image:url("http://media-cdn.tripadvisor.com/media/photo-s/02/39/9e/e1/fort-myers-beach.jpg");
+}
+.i20{
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/b/b1/Flying_into_San_Juan-Puerto_Rico.jpg");
+}
+.i21{
+    background-image:url("http://www.realestatepub.com/website/agent_pictures/5265/French%20Quarter%201.jpg");
+}
+.i22{
+    background-image:url("http://static1.squarespace.com/static/54300dc8e4b034a361ab689c/t/543b20e2e4b07b5d8ca99e37/1413161191708/Moving-from-Chicago-to-Orlando-Florida-Move-to-Orlando-Florida-IL-FL-2.jpg?format=1500w");
+}
+.i23{
+    background-image:url("https://images.trvl-media.com/media/content/shared/images/travelguides/destination/602874/Grand-Cayman-74916.jpg");
+}
+.i24{
+    background-image:url("https://goldeneramotors.com/wp-content/uploads/2015/02/sandiego.jpg");
+}
+.i25{
+    background-image:url("https://www.syntheticmotoroilstoday.com/images/city-images/las-vegas-nevada.jpg");
+}
+.i26{
+    background-image:url("http://us.las-terrenas-live.com/upload/president-juan-bosch-el-catey-samana-airport-1.jpg");
+}
+.i27{
+    background-image:url("https://www.burgessyachts.com/media/adminforms/locations/n/e/new_york_1.jpg");
+}
+.i28{
+    background-image:url("http://7-themes.com/data_images/out/78/7039390-san-francisco.jpg");
+}
+.i29{
+    background-image:url("http://www.elliotthouseinn.com/wp-content/uploads/2013/08/Church-Street.jpg");
+}
+.i30{
+    background-image:url("http://lariona.com/wp-content/uploads/2014/10/punta-cana-dominican-republic.jpg");
+}
