@@ -4,3 +4,4 @@ var trips = [{'dest': 'Los Angeles, CA ', 'origin': 'JFK', 'price': '670.70', 'd
 var Firebase = require("firebase");
 var myFirebaseRef = new Firebase("https://flywithdrake.firebaseio.com/flights/");
 myFirebaseRef.set(trips);
+

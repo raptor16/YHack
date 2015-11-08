@@ -15,6 +15,9 @@ app.get("/home", function (req, res) {
 app.get("/404", function (req, res) {
   res.sendfile("public_html/index.html");
 });
+app.get("/recommendations", function (req, res) {
+  res.sendfile("public_html/index.html");
+});
 
 app.use(express.static(publicDir));
 

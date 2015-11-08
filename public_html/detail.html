@@ -1,0 +1,17 @@
+<div class="std-spacer"></div>
+
+<div class="container bg-dark" style="position: relative;">
+    <div class="page-header">
+        <h1>{{main.flights[main.s].dest}}</h1>
+        <div class="btn rec" ng-click="main.gotohome()">Home</div>
+        <div class="btn rec" ng-click="main.gotorec()" style="margin-right:170px;">Recommendations</div>
+    </div>
+    
+    <div class="row">
+        <div class="col-sm-4">
+            <a class="thumbnail">
+                <div class="panelsupp div-supp" ng-class="'i'+main.s"></div>
+            </a>
+        </div>
+    </div>
+</div>

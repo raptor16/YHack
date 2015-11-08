@@ -1,13 +1,13 @@
 <div class="std-spacer"></div>
-<div class="container bg-dark" style="position: relative;">
+<div class="container bg-dark" style="position: relative; height:450px">
     <div class="page-header">
-        <h1>Explore the World</h1>
-        <div class="btn rec" ng-click="main.gotorec()">Recommendations</div>
+        <h1>Tailored just for you</h1>
+        <div class="btn rec" ng-click="main.gotohome()">Home</div>
     </div>
-    <div style="overflow:scroll; height:460px;">
+    <div style="overflow:scroll; height:360px;">
         <div ng-class="row">
-            <div class="col-sm-4" ng-repeat="item in main.flights" ng-if="$index!=14">
-                <div class="panel panelsupp" style="height:300px; position:relative;" ng-class="'i'+$index" ng-click="main.goto($index)">
+            <div class="col-sm-4" ng-repeat="item in main.randomizedFlights|limitTo:3" ng-if="$index!=14">
+                <div class="panel panelsupp" style="height:300px; position:relative;" ng-class="'i'+ main.findIndex(item.dest)" ng-click="main.goto($index)">
                     <div class="darken">
                         <div class="panel-heading">
                             <h1>{{item.dest}}</h1>
