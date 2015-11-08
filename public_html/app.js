@@ -13,8 +13,11 @@
         function($routeProvider,$locationProvider) {
             $locationProvider.html5Mode(true).hashPrefix('!');
             $routeProvider.
-            when('/', {
+            when('/login', {
                 templateUrl: 'login.html'
+            }).            
+            when('/home', {
+                templateUrl: 'home.html'
             }).
             when('/404', {
                 templateUrl: '404.html'
@@ -25,7 +28,7 @@
         }
     ]); 
 
-    drake.controller('MainController', ["$firebaseObject","Auth", function($firebaseObject, Auth){
+    drake.controller('MainController', ["$firebaseObject","Auth","$location", function($firebaseObject, Auth, $location){
         var main = this;
         
         main.client = {};
@@ -50,11 +53,13 @@
                 Auth.$authWithOAuthPopup("facebook").then(function(authData) {
                     console.log(authData);
                     main.loggedin = true;
-                }).catch(function(error) {
+                    $location.path('/home')
+                 }).catch(function(error) {
                     alert('There was an error with your login :(');
                 });
             }else{
                 console.log("login function was triggered while main.loggedin was false");
+                $location.path('/home')
             }
         }
         

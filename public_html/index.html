@@ -4,10 +4,14 @@
     <head>
         <title>Drake</title>
         <meta charset="utf-8">
-        <base href="/">
+        <base href="/">        
+        <link href='https://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
+
         
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
+        <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
+        <link rel="stylesheet" href="style.css" />
 
         <script src="bower_components/firebase/firebase.js"></script>
         <script src="bower_components/angular/angular.js"></script>
@@ -19,8 +23,11 @@
     </head>
     
     <body ng-controller="MainController as main">
+        <div class="bg-splash"></div>
+<div class="drake">Drake</div>
         
-        <div ng-view></div>
+        
+        <div ng-view style="height:100%"></div>
 
     </body>
 </html>
