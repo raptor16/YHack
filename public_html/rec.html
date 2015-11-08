@@ -7,7 +7,7 @@
     <div style="overflow:scroll; height:360px;">
         <div ng-class="row">
             <div class="col-sm-4" ng-repeat="item in main.randomizedFlights|limitTo:3" ng-if="$index!=14">
-                <div class="panel panelsupp" style="height:300px; position:relative;" ng-class="'i'+ main.findIndex(item.dest)" ng-click="main.goto($index)">
+                <div class="panel panelsupp" style="height:300px; position:relative;" ng-class="'i'+ main.findIndex(item.dest)" ng-click="main.goto(main.findIndex(item.dest))">
                     <div class="darken">
                         <div class="panel-heading">
                             <h1>{{item.dest}}</h1>
@@ -20,6 +20,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+         </div>
     </div>
 </div>
+<!--yhin-->

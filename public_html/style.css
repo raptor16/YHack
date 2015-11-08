@@ -119,6 +119,11 @@
     width: 100%;
     cursor: pointer;
 }
+.buynow{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
 .darken:hover{
     background-color: rgba(0,0,0,0.1);
     border-style: solid;
