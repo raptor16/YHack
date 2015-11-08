@@ -1,0 +1,232 @@
+.bg-splash{
+    border-radius:0px; 
+    background-image:url('splash_image.jpg'); 
+    background-size:cover; 
+    background-position: bottom;
+    background-repeat:no-repeat; 
+    height: 100%;
+    width:100%;
+    position: absolute;
+    z-index: -1;
+}
+.login-box p span{
+    font-style: italic;
+}
+.drake{
+    font-family: 'Bad Script', cursive;
+    color: red;
+    font-size: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+}
+.loginbutton{
+    width: 200px;
+    height: 60px;
+    background-color: rgba(0,0,0,0);
+    border-color: #fff;
+    border-radius: 6px;
+    border-width: 2px;
+    position: absolute;
+    left: calc(50% - 100px);
+    top: 550px;
+    background-color: rgba(0,0,0,0.3);
+    overflow: hidden;
+}
+.rec{
+    right:20px; 
+    top:50px; 
+    position:absolute;
+    width: 150px;
+    height: 36px;
+    background-color: rgba(0,0,0,0);
+    border-color: #fff;
+    border-radius: 6px;
+    border-width: 2px;
+    background-color: rgba(0,0,0,0.3);
+    overflow: hidden;
+}
+.rec:hover{
+    color:black;
+    background-color:white;
+}
+
+.loginbutton span{
+    position: absolute;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    top:16px;
+    left: 0;
+    font-size: 28px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    position: relative;
+    margin-left: 20px;
+}
+.line{
+    height: 100px;
+    width: 2px;
+    background-color:#fff;
+    position: absolute;
+    top: -50px;
+    left: 0px;
+    
+}
+.loginbutton span i{
+    position: absolute;
+    left: -40px;
+    bottom: 3px;
+}
+.loginbutton:hover{
+    background-color: #0056ac;
+}
+.div-supp{
+    height: 300px;
+}
+.login-box{
+    position: absolute;
+    top: calc(50% - 200px);
+    width: 700px;
+    height: 400px;
+    left: calc(50% - 350px);
+    background-color: rgba(0,0,0,0.8);
+    border-color: #fff;
+    border-style: solid;
+    border-width: 3px;
+}
+.bg-dark{
+    background-color: rgba(0,0,0,0.8);
+    height: 600px;
+    color: #eee;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    overflow: hidden;
+}
+.std-spacer{
+    height: 100px;
+}
+
+.darken{
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.buynow{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+.darken:hover{
+    background-color: rgba(0,0,0,0.1);
+    border-style: solid;
+    border-color: #fff;
+    border-width: 1px;
+}
+.panelsupp{
+    position: relative;
+    background-size:cover; 
+    background-position: bottom;
+    background-repeat:no-repeat; 
+}
+
+.i0{
+    background-image:url("https://homehero-production.s3.amazonaws.com/article-assets/Los-Angeles-Skyline.jpg");
+}
+.i1{
+    background-image:url("http://www.cheapcaribbean.com/upload/lo_363/re_3552/file_8844810539823312663620x310.jpg");
+}
+.i2{
+    background-image:url("http://www.gov.gd/images/sliders/slider-1.jpg");
+}
+.i3{
+    background-image:url("https://phgcdn.com/images/uploads/CURSB/corporatemasthead/CURSB_offers.jpg");
+}
+.i4{
+    background-image:url("http://sun-surfer.com/photos/2012/02/Paradise-Island-Nassau-Bahamas.jpg");
+}
+.i5{
+    background-image:url("http://media-cdn.tripadvisor.com/media/photo-s/03/9b/30/3c/tampa.jpg");
+}
+.i6{
+    background-image:url("http://thejointblog.com/wp-content/uploads/2015/06/bermuda.jpg");
+}
+.i7{
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/e/e1/West_Palm_Beach.jpg");
+}
+.i8{
+    background-image:url("http://www.etraveltrips.com/traveldeals/wp-content/uploads/2011/02/aruba1.gif");
+}
+.i9{
+    background-image:url("http://www.visitaruba.com/readBlob.do?id=4340");
+}
+.i10{
+    background-image:url("http://www.acsu.buffalo.edu/~scotthum/cancun-mexico.jpg");
+}
+.i11{
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/8/8c/Amphitheater_in_Altos_de_Chav%C3%B3n,_La_Romana,_Dominican_Republic.jpg");
+}
+.i12{
+    background-image:url("https://s3.amazonaws.com/jauntaroo/img/destinations/Puerto_Plata-Dominican_Republic-4-PC_Dominican_Republic_Ministry_of_Tourism_642.jpg");
+}
+.i13{
+    background-image:url("http://www.planetware.com/photos-large/USFL/florida-fort-lauderdale-beach-aerial.jpg");
+}
+.i14{
+    background-image:url("https://homehero-production.s3.amazonaws.com/article-assets/Los-Angeles-Skyline.jpg");
+}
+.i15{
+    background-image:url("http://s3.amazonaws.com/m.saltado.com/sites/included/region/60.jpg");
+}
+.i16{
+    background-image:url("http://www.ldschurchtemples.com/santodomingo/gallery/images/santo-domingo-mormon-temple20.jpg");
+}
+.i17{
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/f/f9/Bridgetown,_Barbados..JPG");
+}
+.i18{
+    background-image:url("http://www.telegraph.co.uk/incoming/article50090.ece/ALTERNATES/w620/lucia-soufbay.jpg");
+}
+.i19{
+    background-image:url("http://media-cdn.tripadvisor.com/media/photo-s/02/39/9e/e1/fort-myers-beach.jpg");
+}
+.i20{
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/b/b1/Flying_into_San_Juan-Puerto_Rico.jpg");
+}
+.i21{
+    background-image:url("http://www.realestatepub.com/website/agent_pictures/5265/French%20Quarter%201.jpg");
+}
+.i22{
+    background-image:url("http://static1.squarespace.com/static/54300dc8e4b034a361ab689c/t/543b20e2e4b07b5d8ca99e37/1413161191708/Moving-from-Chicago-to-Orlando-Florida-Move-to-Orlando-Florida-IL-FL-2.jpg?format=1500w");
+}
+.i23{
+    background-image:url("https://images.trvl-media.com/media/content/shared/images/travelguides/destination/602874/Grand-Cayman-74916.jpg");
+}
+.i24{
+    background-image:url("https://goldeneramotors.com/wp-content/uploads/2015/02/sandiego.jpg");
+}
+.i25{
+    background-image:url("https://www.syntheticmotoroilstoday.com/images/city-images/las-vegas-nevada.jpg");
+}
+.i26{
+    background-image:url("http://us.las-terrenas-live.com/upload/president-juan-bosch-el-catey-samana-airport-1.jpg");
+}
+.i27{
+    background-image:url("https://www.burgessyachts.com/media/adminforms/locations/n/e/new_york_1.jpg");
+}
+.i28{
+    background-image:url("http://7-themes.com/data_images/out/78/7039390-san-francisco.jpg");
+}
+.i29{
+    background-image:url("http://www.elliotthouseinn.com/wp-content/uploads/2013/08/Church-Street.jpg");
+}
+.i30{
+    background-image:url("http://lariona.com/wp-content/uploads/2014/10/punta-cana-dominican-republic.jpg");
+}
