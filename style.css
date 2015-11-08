@@ -9,44 +9,30 @@
     position: absolute;
     z-index: -1;
 }
-.login-box{
-    position: absolute;
-    top: calc(50% - 200px);
-    width: 700px;
-    height: 400px;
-    left: calc(50% - 350px);
-    background-color: rgba(0,0,0,0.8);
-    border-color: #fff;
-    border-style: solid;
-    border-width: 3px;
-}
-.login-box p{
-    margin: 50px;
-    font-size: 20px;
-    color:white;
-}
 .login-box p span{
     font-style: italic;
 }
 .drake{
     font-family: 'Bad Script', cursive;
     color: red;
-    font-size: 50px;
+    font-size: 60px;
     position: absolute;
     top: 0;
     left: 0;
     margin: 10px;
 }
 .loginbutton{
-    width: 300px;
-    height: 120px;
+    width: 200px;
+    height: 60px;
     background-color: rgba(0,0,0,0);
     border-color: #fff;
-    border-radius: 0;
-    border-width: 5px;
+    border-radius: 6px;
+    border-width: 2px;
     position: absolute;
-    left: calc(50% - 150px);
-    top: 200px;
+    left: calc(50% - 100px);
+    top: 550px;
+    background-color: rgba(0,0,0,0.3);
+    overflow: hidden;
 }
 
 .loginbutton span{
@@ -54,12 +40,30 @@
     line-height: 0;
     margin: 0;
     padding: 0;
-    top:40px;
+    top:16px;
     left: 0;
     font-size: 28px;
     width: 100%;
     text-align: center;
     color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    position: relative;
+    margin-left: 20px;
+}
+.line{
+    height: 100px;
+    width: 2px;
+    background-color:#fff;
+    position: absolute;
+    top: -50px;
+    left: 0px;
+    
+}
+.loginbutton span i{
+position: absolute;
+left: -40px;
+    bottom: 3px;
 }
 .loginbutton:hover{
     background-color: #0056ac;

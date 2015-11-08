@@ -44,6 +44,7 @@
                     main.client.$save()
                 });
                 main.loggedin = true;
+                $location.path('/home')
             }
             main.authData = authData;
         });
