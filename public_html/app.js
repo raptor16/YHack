@@ -28,12 +28,15 @@
         }
     ]); 
 
-    drake.controller('MainController', ["$firebaseObject","Auth","$location", function($firebaseObject, Auth, $location){
+    drake.controller('MainController', ["$firebaseObject","Auth","$location", "$firebaseArray", function($firebaseObject, Auth, $location, $firebaseArray){
         var main = this;
         
         main.client = {};
         main.loggedin = false;
         var clientRef;
+        
+        var flightRef = new Firebase("https://flywithdrake.firebaseio.com/flights/");
+        main.flights = $firebaseArray(flightRef);
         
         Auth.$onAuth(function(authData) {
             if(authData){
@@ -44,7 +47,7 @@
                     main.client.$save()
                 });
                 main.loggedin = true;
-                $location.path('/home')
+                $location.path('/home');
             }
             main.authData = authData;
         });

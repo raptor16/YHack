@@ -1,0 +1,29 @@
+<div class="std-spacer"></div>
+<div class="container bg-dark" style="position: relative;">
+    <div class="page-header">
+        <h1>Explore the World</h1>
+        <div class="btn rec">Recommendations</div>
+    </div>
+    <div style="overflow:scroll; height:460px;">
+        <div ng-class="row">
+            <div class="col-sm-4" ng-repeat="item in main.flights">
+                <div class="panel panelsupp" style="height:300px" ng-class="'i'+$index">
+                        <div class="darken">
+                        <div class="panel-heading">
+                            <h1>{{item.dest}}</h1>
+                        </div>
+                        <div class="panel-body">
+                            Badass motherfuckery
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div ng-repeat="item in items">
+  <div ng-class="row|($index % 3 == 0)">
+    <ng-include class="col-sm-4" src="'views/items/item'"></ng-include> 
+  </div>
+</div>
